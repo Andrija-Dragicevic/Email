@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS kurs 2</title>
+</head>
+<body>
+
+    <style>
+        a{
+            display: block;
+        }
+    </style>
+    <input type="text" id="email">
+    <br><br>
+    <button onclick="validacija()">Validiraj</button>
+
+
+
+    <br><br><br><br>
+   <button onclick="pokreniMe(this)">Zuto dugme</button>    <!-- ovo (this) pomocu njega cemo detektovati koje smo dugme kliknuli -->
+   <button onclick="pokreniMe(this)">Zeleno dugme</button>
+   <button onclick="pokreniMe(this)">Plavo dugme</button>
+ 
+   <p id="klikutoDugme"></p>
+    <script src="script.js"></script>
+</body>
+</html>
